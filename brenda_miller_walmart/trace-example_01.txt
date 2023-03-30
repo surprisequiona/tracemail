@@ -1,0 +1,58 @@
+
+Information for email: example_01.eml
+To: Brenda Miller <brmiller@werner.com>, DC 6299 Shipping <DC6299SH0@wal-mart.com>, Martin Venegas - m0veneg <Martin.Venegas@samsclub.com>, Steven Martin - s0m0m2o <Steven.Martin@samsclub.com>, Richard Morando - rmorand <Richard.Morando@samsclub.com>
+From: Victor Vuong - v0v011p <Victor.Vuong@samsclub.com>
+Subject: [EXTERNAL] RE: 2nd Request      RE: Morning Projections
+Date: Mon, 27 Mar 2023 15:01:13 +0000
+
+
+Hop #: From --> By
+Hop 1: SJ1P100MB0682.NAMP100.PROD.OUTLOOK.COM [fe80::eac7:f7a:8991:794f] --> SJ1P100MB0682.NAMP100.PROD.OUTLOOK.COM [fe80::eac7:f7a:8991:794f%4]
+Hop 2: SJ1P100MB0682.NAMP100.PROD.OUTLOOK.COM (2603:10b6:a03:441::18) --> SA9P100MB0689.NAMP100.PROD.OUTLOOK.COM (2603:10b6:806:1a::12)
+Hop 3: NAM11-BN8-obe.outbound.protection.outlook.com (10.10.197.231) --> phont301edcus2.homeoffice.Wal-Mart.com (10.121.14.24)
+Hop 4: phont301edcus2.homeoffice.Wal-Mart.com (10.121.14.24) --> phont300edcus4.homeoffice.Wal-Mart.com (10.121.14.22)
+Hop 5: phont300edcus4.homeoffice.Wal-Mart.com [10.121.14.22] --> Forcepoint (GMT)
+Hop 6: fp-mail-e1.wal-mart.com [10.94.131.41] --> ppes-mail-c1.wal-mart.com (PPS)
+Hop 7: pps.filterd [127.0.0.1] --> ppes-mail-c1.wal-mart.com (8.17.1.19/8.17.1.19)
+Hop 8: ppes-mail-c1.wal-mart.com [161.167.229.192] --> mailstream-east.mxrecord.io (Postfix)
+Hop 9: mailstream-east.mxrecord.io [127.0.0.1] --> localhost (Area1Security-Mailstream 2.171.1)
+Hop 10: mailstream018.us-east-1.production.area1.internal [127.0.0.1] --> mailstream-east.mxrecord.io (Postfix)
+Hop 11: mailstream-east.mxrecord.io (52.0.67.109) --> BN8NAM04FT029.mail.protection.outlook.com (10.13.161.86)
+Hop 12: BN8NAM04FT029.eop-NAM04.prod.protection.outlook.com (2603:10b6:408:112:cafe::b8) --> BN9PR03CA0312.outlook.office365.com (2603:10b6:408:112::17)
+Hop 13: BN9PR03CA0312.namprd03.prod.outlook.com (2603:10b6:408:112::17) --> SJ0PR18MB4962.namprd18.prod.outlook.com (2603:10b6:a03:3e9::17)
+Hop 14: SJ0PR18MB4962.namprd18.prod.outlook.com (2603:10b6:a03:3e9::17) --> DM6PR18MB2924.namprd18.prod.outlook.com 
+
+
+------------------------------
+| Hop # | Delay (in seconds) |
+------------------------------
+|   1   |         *          |
+------------------------------
+|   2   |        0.0         |
+------------------------------
+|   3   |        2.0         |
+------------------------------
+|   4   |        0.0         |
+------------------------------
+|   5   |        1.0         |
+------------------------------
+|   6   |      23415.0       |
+------------------------------
+|   7   |        0.0         |
+------------------------------
+|   8   |        1.0         |
+------------------------------
+|   9   |        0.0         |
+------------------------------
+|  10   |        1.0         |
+------------------------------
+|  11   |        0.0         |
+------------------------------
+|  12   |        1.0         |
+------------------------------
+|  13   |        2.0         |
+------------------------------
+|  14   |        3.0         |
+------------------------------
+   Total: 390 min. 26 sec.    
+________________________________________________________________________________
